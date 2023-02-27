@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+#todo{
+  overflow: hidden;
+}
+
+.Seccion1{
+    background-color: rgb(5, 5, 100);
+    color: white;
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-left: 5%;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+.Seccion2{
+    width: 70%;
+    height: inherit;
+    float: left;
+    margin-right: 5%;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+.TipoDato{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin: 25px;
+}
+
+.InfoDato{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+}
+
+.InfoDato2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.subInfoDato{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 40px;
+}
+
+#fotoPerfil{
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    border-radius: 10%;
+    border: solid gray 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.verMas-btn{
+  margin-left: 2%;
+  border-radius: 10%;
+  color: white;
+  background-color: rgb(5, 5, 100);
+  padding: 5px;
+  font-weight: bold;
+}
+
+#subtitulo{
+  font-style: italic;
+  font-weight: lighter;
+  color: gray;
+  text-align: center;
+}
+
+h2{
+  padding-top: 1%;
+  padding-left: 10%;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+}
+
+.ContenidoCV{
+  padding-left: 15%;
+}
+
+.itemCV{
+  border-bottom-style: outset;
+  padding-bottom: 2%;
+  background-color: bisque;
+  margin: 2%;
+}
+
+.itemHeader{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+.oculto{
+  display: none;
+}
+
+.visible{
+  display: block;
+  font-style: italic;
+  padding-left: 5px;
+}
